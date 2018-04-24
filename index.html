@@ -5,6 +5,39 @@
 		<meta charset="utf-8">
 	</head>
 	<body>
+		<style>
+			body{
+				background:#2c2c2c;
+				color:#fefefe;
+				}
+			textarea{
+				background:#2c2c2c;
+				color:#fefefe;
+				border:#fefefe 1px solid;
+				}
+			#code{
+				position:absolute;
+				top:20px;
+				left:5px;
+				width:49.8%;
+				height:500px;
+			}
+			#jscode{
+					position:absolute;
+					top:20px;
+					right:5px;
+					width:49.8%;
+					height:500px;
+			}
+			button{
+				position:fixed;
+				top:0px;
+				left:0px;
+				height:19px;
+				font-size:8pt;
+				z-index:2;
+				}
+			</style>
 	<textarea id="code"></textarea><br><textarea id="jscode"></textarea><br><button onclick="jsjp.run();">実行する</button>
 	<div id="message"></div>
 	</body>
